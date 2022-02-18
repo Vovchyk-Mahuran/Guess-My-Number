@@ -65,7 +65,8 @@ section {
 }
 @media only screen and (max-width: 430px) {
   .box {
-    max-width: 70%;
+    max-width: 80%;
     height: 80%;
+    border-radius:15%;
   }
 }
