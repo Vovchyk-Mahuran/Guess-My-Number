@@ -18,7 +18,7 @@ function endGame() {
 
 
 buttonSubmit.addEventListener('click', function () {
-    if (attemptValue > 0) {
+    if (attemptValue > 1) {
             let input = parseInt(document.getElementById('input').value);
          console.log(input);
         attemptValue = --attemptValue;
